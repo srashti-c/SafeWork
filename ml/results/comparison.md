@@ -1,0 +1,5 @@
+| model | cv_macro_f1_train | test_accuracy | test_macro_precision | test_macro_recall | test_macro_f1 |
+|---|---|---|---|---|---|
+| TF-IDF + Logistic Regression | 0.375 | 0.419 | 0.433 | 0.419 | 0.422 |
+| TF-IDF + Linear SVM | 0.433 | 0.448 | 0.458 | 0.448 | 0.45 |
+| MiniLM embeddings + Logistic Regression | 0.658 | 0.724 | 0.798 | 0.724 | 0.738 |

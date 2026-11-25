@@ -1,0 +1,22 @@
+model,class,precision,recall,f1,support
+TF-IDF + Logistic Regression,Verbal harassment,0.1,0.067,0.08,15
+TF-IDF + Logistic Regression,Sexual harassment,0.0,0.0,0.0,15
+TF-IDF + Logistic Regression,Physical harassment,0.421,0.533,0.471,15
+TF-IDF + Logistic Regression,Discrimination,0.667,0.667,0.667,15
+TF-IDF + Logistic Regression,Bullying / abuse of power,0.25,0.267,0.258,15
+TF-IDF + Logistic Regression,Retaliation,0.909,0.667,0.769,15
+TF-IDF + Logistic Regression,Other,0.688,0.733,0.71,15
+TF-IDF + Linear SVM,Verbal harassment,0.0,0.0,0.0,15
+TF-IDF + Linear SVM,Sexual harassment,0.0,0.0,0.0,15
+TF-IDF + Linear SVM,Physical harassment,0.4,0.4,0.4,15
+TF-IDF + Linear SVM,Discrimination,0.833,0.667,0.741,15
+TF-IDF + Linear SVM,Bullying / abuse of power,0.286,0.267,0.276,15
+TF-IDF + Linear SVM,Retaliation,1.0,0.933,0.966,15
+TF-IDF + Linear SVM,Other,0.684,0.867,0.765,15
+MiniLM embeddings + Logistic Regression,Verbal harassment,0.75,1.0,0.857,15
+MiniLM embeddings + Logistic Regression,Sexual harassment,1.0,0.667,0.8,15
+MiniLM embeddings + Logistic Regression,Physical harassment,1.0,0.667,0.8,15
+MiniLM embeddings + Logistic Regression,Discrimination,0.889,0.533,0.667,15
+MiniLM embeddings + Logistic Regression,Bullying / abuse of power,0.36,0.6,0.45,15
+MiniLM embeddings + Logistic Regression,Retaliation,0.588,0.667,0.625,15
+MiniLM embeddings + Logistic Regression,Other,1.0,0.933,0.966,15
